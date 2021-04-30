@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/demo_app_encrypt/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_app_encrypt/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_m/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_m/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_su/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo_su/src" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

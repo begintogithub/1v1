@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<!-- 支付宝相关 -->
+<properties>
+	<!-- 推流地址 -->
+	<entry key="play_addr">rtmp://push.huahudievip.com.wsdvs.com/live/</entry>
+	<!-- 项目名称 -->
+	<entry key="projectName">面具交友</entry>
+	<!-- 支付宝回调地址 -->
+	<entry key="alipayNotifyUrl">http://admin.mianjuapp.top:8080/pay/alipay_callback.html</entry>
+	<!-- 微信支付回调地址 -->
+	<entry key="weixinNotifyUrl">http://admin.mianjuapp.top:8080/pay/wxPayCallBack.html</entry>
+	<!-- 微信支付IP地址 -->
+	<entry key="spbill_create_ip">39.98.178.216</entry>
+	<!-- 推送相关 -->
+	<entry key="app_key">1f86818a92b143893b21f488</entry>
+	<entry key="master_secret">8dd3fb1f6d93a0c0fa5b3eaa</entry>
+
+	<!-- 渠道推广背景图片存储路径   windows -->
+	<entry key="windows_speed_fileUrl">C:/speed/img/</entry>
+	<!-- 渠道推广背景图片存储路径   centos -->
+	<entry key="centos_speed_fileUrl">/speed/img/</entry>
+	<!-- 配置图片房间地址 -->
+	<entry key="spreed_img_url">http://admin.mianjuapp.top/admin/upload/</entry>
+	<!-- 分享链接 -->
+	<entry key="share_url">http://admin.mianjuapp.top:8080/share/jumpShare.html?userId=</entry>
+
+
+	<!--加密 公钥 -->
+	<entry key="encrypt_public">MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCEX8uKgV3qbs+JjOGldH+OXA/7S7KtgWu2DHydcrUS+pwDtAw5cA8gRSHlVk8vVxSn89gy3Nhz0EA2qfxPB1hciWTy4lziKPEsCJcGq1ri/bADHj2CXiYLOkM6RxWhgFDiT+Afcu4XnYRCL5gFGaEvyVk3UV369qjG7y3ijhUHGwIDAQAB</entry>
+	<!--解密 私钥 -->
+	<entry key="encrypt_private">MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAIRfy4qBXepuz4mM4aV0f45cD/tLsq2Ba7YMfJ1ytRL6nAO0DDlwDyBFIeVWTy9XFKfz2DLc2HPQQDap/E8HWFyJZPLiXOIo8SwIlwarWuL9sAMePYJeJgs6QzpHFaGAUOJP4B9y7hedhEIvmAUZoS/JWTdRXfr2qMbvLeKOFQcbAgMBAAECgYAmDsycI5l2vykX6NMvGJFbwogtvZO/YogvLOPe+I2qyTZ1shwZn2gZ5QZbwza865JavzaXWPs6QNNVZAXQStJSTjqGLHiOK9kQWflF7XtZtBoAVAKP9lLveyBXtTrII/3LSzIvMECdT5YYYLzU91vpolg9+0WpzEHtRdtbDIyLEQJBAMm5ofn6kpQ88IW7ypMcZ5RFy46XPxeaZhmAQwSONYzGVArpjHfe3wKC5QxqfGThHT2YCPSFukhvsLN6etF537cCQQCn/W2ruSXrLhMy8dgkEwQL+EX9cd97qDvpd1u5u1TQ+kZo3cJ5SEONucM3YN5Tnu9FfG2aBEk9wZywl4pNcgu9AkEAvRVphJ2hA55TfadW7Kn1VQBPG2sd0owBI+ob54s9GqVUZZ4g8sNPmlUDSa4Ox6hS9kcqLbmjsP4wTSuDMBLi5QJARqbceCufWgD/zB5QxCNHQW2Cqiw5TL2drPwpFL1H17ha4oHZ575PwwyMoP7ZopumkDfbtLn2v8VtDAw/+4BqlQJAKlzcv+cjy+aA41gX68QeDr3sBx6LxtmJMhblwNGRsU1Y+AX0dAMFNLxss+sYQC9MiPW/LDkmyHPrAtAD9F/ASw==</entry>
+
+	<!-- 腾讯实时音视频 -->
+	<entry key="SDKAppid">1400209967</entry>
+	<entry key="tx_public_key">MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEw+oBB1P45m4Td6c+Wfzma2Z8vSfFvUNe32AeNFxK5TrPXDaYg4xPybr/6q3go0w6ZcNuod3uZXvWsAETQ9NR7Q==</entry>
+	<entry key="tx_private_key">MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgGDlxA886VfSr15Mvjp0wV9xK6uwhRFzf2PQVi7JrtF2hRANCAATD6gEHU/jmbhN3pz5Z/OZrZny9J8W9Q17fYB40XErlOs9cNpiDjE/Juv/qreCjTDplw26h3e5le9awARND01Ht</entry>
+
+	<!-- 腾讯云IM privtaekey采用读取文件 -->
+	<entry key="IM_SDKAppID">1400227690</entry>
+	<entry key="IM_PRIVATE_KEY">MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgnSVIYLpRLYTSqkadwkoC85jU5gRfaajSazy85ByJY2ahRANCAASqXyfyM5vOVd66eEHGkz38DNNepOV9FkWgmKDKS/o6J9ts8PM5D0PbIBKtPxbm6mI2+e+ziQbTTu72n8R/Yw17</entry>
+
+	<!-- 腾讯云存储-->
+	<entry key="BUCKET">changliao-1259590903</entry>
+	<entry key="REGION">ap-hongkong</entry>
+
+	<!-- 腾讯管理-->
+	<entry key="APPID">1259590903</entry>
+	<entry key="SECRETID">AKIDovbhefRcHlDHrHkP9lCRlGaFqy40cn6q</entry>
+	<entry key="SECRETKEY">lOtCKOO9g4GLZeafnogQzBB1mGlAXq11</entry>
+</properties>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<!-- 支付宝相关 -->
+<properties>
+   <!-- windows -->
+	<entry key="winffmpeg">D://ffmpeg.exe</entry>
+	<entry key="centosfileUrl">/screenshot/123.jpg</entry>
+	<!-- windows -->
+	<entry key="windowsfileUrl">F:/screenshot/123.jpg</entry>
+	<!-- 渠道推广背景图片存储路径   windows -->
+	<entry key="windows_speed_fileUrl">C:/speed/img/</entry>
+	<!-- 渠道推广背景图片存储路径   centos -->
+	<entry key="centos_speed_fileUrl">/speed/img/</entry>
+    <!-- 微信提现加密文件 -->
+    <entry key="cert">/secretkey/cert/apiclient_cert.p12</entry>
+    <!-- 微信支付IP地址 -->
+    <entry key="spbill_create_ip">39.98.178.216</entry>
+    <!-- 项目名称 -->
+    <entry key="projectName">面具交友</entry>
+    <!-- 项目APP访问地址 -->
+    <entry key="project_url">http://admin.mianjuapp.top/admin</entry>
+    <!-- 调用通知地址 -->
+    <entry key="noticeUrl">http://admin.mianjuapp.top:8080/app/sendSocketNotice.do</entry>
+    <!-- 推送相关 -->
+    <entry key="app_key">1f86818a92b143893b21f488</entry>
+    <entry key="master_secret">8dd3fb1f6d93a0c0fa5b3eaa</entry>
+    
+    <entry key="showapi_appid">422867</entry>
+    <entry key="showapi_sign">10ef1c60a29245f1936c2cb6b9f622aa</entry>
+</properties>

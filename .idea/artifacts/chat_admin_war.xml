@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chat_admin:war">
+    <output-path>$PROJECT_DIR$/demo_m/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>chat_admin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="chat_admin-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="chat_admin:war exploded" />
+    </root>
+  </artifact>
+</component>
